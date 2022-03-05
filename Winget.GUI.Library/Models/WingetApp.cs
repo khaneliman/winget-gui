@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WinGet_GUI
+namespace Winget.GUI.Library.Models
 {
-    class UpgradeableApp
+    internal class WingetApp
     {
         private string name;
         private string id;

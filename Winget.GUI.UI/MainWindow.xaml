@@ -1,0 +1,16 @@
+﻿<Window x:Name="wndWingetGUI" x:Class="Winget.GUI.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Winget.GUI.UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstApps" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,113,0,0" SelectionMode="Multiple"/>
+        <Button x:Name="btnCheckUpdate" Content="Check for Updates" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.326,4.347"/>
+        <Label Content="Winget GUI&#xD;&#xA;" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Width="156" FontFamily="Cascadia Code" FontSize="24" Height="36"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="134,88,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
